@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Andres Lopez</title>
+    <!-- Enlaces a hoja de estilo propia de css y cdn de bootstrap y cdn libreria js que utilizan las animaciones de boostrap-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f1c83b6af2.js" crossorigin="anonymous"></script>
+<body>   
+    <!---------------------------------------------Barra de navegacion --------------------- -------------------- -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#Info">Juan Andres Lopez</a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#titulos">Titulos y Certificaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Expe">Experiencia Laboral</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>             
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!----------------------Div Contenedor -------------------- -->
+    <div id="contenedor" class="container-fluid">      
+      <br><br><br>
+    <div class="card-header">
+       <!---------------------- seccion de Informacion -------------------- -->
+      <Section  id="Info">         
+        <div id="renglon" class="row p-3  "> 
+            <div class="col-8  text-start">
+               <h1>Juan Andres Lopez </h1><br>
+               Tecnico superior en Desarrollo de Software <br>
+               Edad: <span id="edad"></span> años <br>
+               Estado Civil: Casado<br> 
+              
+            </div>            
+            <div id="FPerfil" class="col-3 mb-3" >
+              <img src="imagenes/foto de perfi -chical.jpg"  class="img-thumbnail"  alt="Foto de Perfil">       
+            </div>           
+          </div>               
+       </Section>
+         <!---------------------- seccion de Certificados y estudios -------------------- -->
+       <Section id="titulos">    
+        <h3>Titulos Y Certificados</h3>              
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h4>Tecnico Superior En Desarrollo de Software </h4> 
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> 
+                (2018-2021) - Realice mis estudios terciario en la Escuela Superior y Superior de Comercio Nro. 46 “Domingo Guzmán Silva”. 
+                 El Técnico Superior en Desarrollo de Software estará capacitado para producir artefactos de Software,
+                 lo que comprende su diseño detallado, construcción - reutilizando elementos existentes o programándolos enteramente- y verificación 
+                 unitaria, así como su depuración, optimización y mantenimiento; desarrollando las actividades descriptas en el perfil profesional y 
+                 cumpliendo con los criterios de realización establecidos Para las mismas en el marco de un equipo de trabajo organizado por proyecto.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h4>Tecnico en Informatica Profesional y Personal </h4> 
+              </button>
+            </h2>
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> 
+                (2006-2012)- Realice mis estudios secundarios en  la Escuela de Educación Secundaria Modalidad Técnico Profesional N° 322 "Obispo
+                 José María Gelabert".  <br>
+                El Técnico en Informática Profesional y Personal está capacitado para asistir al usuario de
+                productos y servicios informáticos brindándole servicios de instalación, capacitación,
+                sistematización, mantenimiento primario, resolución de problemas derivados de la operatoria, y
+                apoyo a la contratación de productos o servicios informáticos, desarrollando las actividades
+                descriptas en su perfil profesional y pudiendo actuar de nexo entre el especialista o experto en
+                el tema, producto o servicio y el usuario final.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwox">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <h4>Operador de Informática Para Administración y Gestión  </h4> 
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwox" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                (2016) Con esta capacitación reforce conocimientos para poder brindar servicios profesionales como operador de 
+                informática mediante el uso de herramientas informáticas en el entorno de trabajo pudiendo resolver problemas propios de la actividad dentro de una amplia 
+                 gama de acciones generales de apoyo administrativo, de gestión y de comunicación, remitiéndose a especialistas para solucionar 
+                 problemas de mayor complejidad.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               <h4>Documentacion</h4> 
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <embed src="./Certificados de Estudios.pdf" type="application/pdf" width="100%" height="600px"/>
+              </div>
+            </div>
+          </div>
+        </div> 
+     </Section>
+       <!---------------------- seccion Experiencia Laboral-------------------- -->
+     <Section id="Expe">
+      <h3>Experiencia Laboral</h3> 
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             <h4> Prácticas Profesionalizante</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> Realizando tareas de mantenimiento e instalación de Hardware, Software y Redes dentro del gabinete
+              informático, dentro de la institución educativa. (20/11/2012 -25/11/2012). Este es el cuerpo de acordeón del primer elemento.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h4> Docente</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Realice reemplazos varios en instituciones Públicas y Privadas, en el área de informática y educación
+              tecnológica, generalmente en periodos cortos y alternados de un día u horas cátedras, logrando acumular 11 meses de antigüedad docente. Por lo general estaba a cargo de un gabinete informático asegurando el
+              correcto funcionamiento y uso del mismo.. Este es el cuerpo del acordeón del segundo elemento. Imaginemos que esto se llena con algún contenido real.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h4>Soporte Técnico Nivel </h4>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> Brindando asesoramiento técnico a clientes internos de las empresas Musimundo y CréditoArgentino. <br> 
+              Anexando las siguientes tareas: <br>
+              <ul class="list-group">
+                <li class="list-group-item">*Limpieza y Mantenimiento de Impresoras Laser.</li>
+                <li class="list-group-item">*Limpieza y Mantenimiento de Pc.</li>
+                <li class="list-group-item">*Instalacion y Configuracion de Sistemas Operativos.</li>
+                <li class="list-group-item">*Instalacion y Configuracion de Software varios.</li>
+                <li class="list-group-item">*Instalacion y mantenimiento de Drivers.</li>
+                <li class="list-group-item">*</li>
+              </ul>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+     </Section>
+     <!---------------------- seccion de contacto-------------------- -->
+     <Section id="Contacto">
+      <h3>Informacion de contacto</h3>
+      <span ><i class="fa-sharp fa-solid fa-phone" data-bs-toggle="tooltip" data-bs-placement="top" title="(+54-0342-155576311)"></i> </span> 
+      <span><i class="fa-sharp fa-solid fa-envelope" data-bs-toggle="tooltip" data-bs-placement="top" title="andres.juan.lopez@gmail.com"></i> </span>
+      <span><a href="https://www.linkedin.com/in/juan-andres-lopez-55b243203"><i class="fa fa-linkedin" aria-hidden="true"data-bs-toggle="tooltip" data-bs-placement="top" title="https://www.linkedin.com/in/juan-andres-lopez-55b243203/"></i></a></span> 
+      <span><a href="https://github.com/LopezJuanAndres"><i class="fa-brands fa-github" data-bs-toggle="tooltip" data-bs-placement="top" title="https://github.com/LopezJuanAndres"></i> </a> </span>
+      
+  </Section>
+
+    </div>
+   
+       
+    </div>
+    <script src="js/funciones.js"></script>
+  
+</head>
+</body>
+</html>
