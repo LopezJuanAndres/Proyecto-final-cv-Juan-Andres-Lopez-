@@ -14,9 +14,9 @@ div.card-header{
       background: linear-gradient(to right, rgb(13, 13, 14),rgb(245, 248, 248));
 }           
 div.card-header section{
-    background-color: rgb(133, 147, 160);
+    background-color: rgb(67, 75, 82);
         text-align: center; 
-   
+        
 }
 #renglon{
     display: flex;
@@ -41,21 +41,17 @@ section{
     text-align: center; 
 }
 #Info {
-    color: black;
+    background-color: black;
     font-size: 30px;
+    color: #fbfcfb;
 }
-#Info i {
-    color: black;
-    font-size: 50px;
-    padding: 10 px;
-    margin: 20px;
-}
+
 /** ----------------------------------------------------------- seccion Contacto -----------------------------------------------------------**/
 #Contacto span{    
     font-size: 20px;
  }
  #Contacto i { 
-    color: black;
+    color: rgb(247, 250, 247);
     font-size: 50px;
     padding: 10 px;
     margin: 20px;
@@ -64,4 +60,12 @@ section{
 /** ----------------------------------------------------------- Medias queries -----------------------------------------------------------
 @media (max-width: 900px) {
     
-}**/
+}
+#Info i {
+    color: rgb(17, 180, 245);
+    font-size: 50px;
+    padding: 10 px;
+    margin: 20px;
+}
+
+**/
